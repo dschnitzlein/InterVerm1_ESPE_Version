@@ -1,0 +1,15 @@
+/*-- scss:rules --*/
+.table-striped {
+  > tbody > tr:nth-of-type(odd) > * {
+    background-color: #FAFAFA;
+  }
+}
+
+/*-- scss:defaults --*/
+$presentation-font-size-root: 40px; 
+$presentation-h1-font-size: 1.3em;
+$presentation-h2-font-size: 1.3em;
+$presentation-heading-line-height: 1.6;
+$body-bg: #FAFAFA;
+$presentation-heading-color: #0a1d2b;
+$body-color: #0a1d2b;

@@ -1,0 +1,7 @@
+project:
+  title: "InterVerm1_ESR_Version"
+  type: website
+  output-dir: docs
+
+editor: visual
+
