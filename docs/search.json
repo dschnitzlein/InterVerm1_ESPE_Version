@@ -1,135 +1,177 @@
 [
   {
-    "objectID": "InterVerm1_ESR_Version.html#wealth-inequality-is-immense-in-many-rich-countries",
-    "href": "InterVerm1_ESR_Version.html#wealth-inequality-is-immense-in-many-rich-countries",
+    "objectID": "InterVerm1_ESPE_Version.html#wealth-inequality-is-immense-in-many-rich-countries",
+    "href": "InterVerm1_ESPE_Version.html#wealth-inequality-is-immense-in-many-rich-countries",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Wealth inequality is immense in many rich countries",
     "text": "Wealth inequality is immense in many rich countries\n\nWealth inequality: immense in many rich democracies (Chancel et al. 2021) and much higher than income inequality (Pfeffer and Waitkus 2021).\n\nGermany 2017: Gini coefficient for household wealth 0.74 vs Gini coefficient for household income 0.29 (Deutsche Bundesbank 2019; Grabka 2021).\n\n\nImpact on individuals: May affect life chances, health, and mortality (Killewald et al. 2017).\n\n\nSocietal effects: May lead to unequal political representation and lower economic growth (Pfeffer and Schoeni 2016).\n\n\nIntergenerational wealth transmission: Crucial for the emergence of wealth inequalities (Pfeffer 2018).\n\n\nDifference to other economic outcomes: Wealth can be transmitted directly and indirectly through the generations."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#the-study-framework-in-a-nutshell",
-    "href": "InterVerm1_ESR_Version.html#the-study-framework-in-a-nutshell",
+    "objectID": "InterVerm1_ESPE_Version.html#the-study-framework-in-a-nutshell",
+    "href": "InterVerm1_ESPE_Version.html#the-study-framework-in-a-nutshell",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "The study framework in a nutshell",
     "text": "The study framework in a nutshell\n\nCentral aim of the paper: Examine inequality in the opportunity to attain wealth by providing the first empirical assessment of the similarity in wealth between siblings in Germany.\n\nCentral research question: How similar is the wealth of siblings in (Eastern and Western) Germany, and, thus, how important is family background broadly conceived in shaping wealth inequality?\n\n\nFactors analyzed: Parental socioeconomic and demographic factors, gender differences\n\n\nData source: German Socio-Economic Panel Study (SOEP) 2002, 2007, 2012, 2017.\n\n\nAnalytical approach: Multilevel models and variance decomposition to estimate sibling correlations; essentially descriptive but provides essential insights into the degree of inequality in the opportunity to attain wealth\n\n\nWealth measurement: Distinction between individual wealth and household wealth to assess gender differences."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#we-make-three-main-contributions-to-the-literature",
-    "href": "InterVerm1_ESR_Version.html#we-make-three-main-contributions-to-the-literature",
+    "objectID": "InterVerm1_ESPE_Version.html#we-make-three-main-contributions-to-the-literature",
+    "href": "InterVerm1_ESPE_Version.html#we-make-three-main-contributions-to-the-literature",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "We make three main contributions to the literature",
     "text": "We make three main contributions to the literature\n\n\nWe add new estimates of sibling similarity in wealth to the small existing body of evidence and thus provide the first evidence from outside Norway, Sweden, and the US for Germany.\n\n\n\n\nWe are the first to study how sibling correlations in wealth differ across household- and individual-level measures of wealth, which provides essential insights into how partnering may contribute to the intergenerational reproduction of wealth.\n\n\n\n\n\nWe consider a rich set of demographic variables to examine the moderating influence of demographic processes on the reproduction of wealth and contrast their influence with that of traditional family SES measures."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#what-is-a-sibling-correlation",
-    "href": "InterVerm1_ESR_Version.html#what-is-a-sibling-correlation",
+    "objectID": "InterVerm1_ESPE_Version.html#family-background-and-sibling-similarity",
+    "href": "InterVerm1_ESPE_Version.html#family-background-and-sibling-similarity",
     "title": "Wealth Formation among Siblings in Germany",
-    "section": "What is a sibling correlation?",
-    "text": "What is a sibling correlation?\n\nThe correlation coeffcient \\(\\rho\\) of the wealth measure \\(y\\) of two siblings \\(j\\) and \\(j'\\) from the same family equals (Solon et al. 1991: Solon 1999):\n\\[ \\rho = corr(y_{ij}, y_{ij'})=\\frac{\\sigma_{\\alpha}^2}{\\sigma_{\\alpha}^2+\\sigma_{\\mu}^2}\\text{ with } j \\neq j'\\] Interpretation: The sibling correlation equals the proportion of the total variance (or inequality) in wealth (\\(\\sigma_{\\alpha}^2+\\sigma_{\\mu}^2\\)) that can be attributed to factors shared by siblings (\\(\\sigma_{\\alpha}^2\\)), such as family factors or neighborhood factors. \\(\\rho\\) can take on values between 0 and 1.\n\\(\\Rightarrow\\) A sibling correlation is a broader concept of social transmission than an intergenerational correlation.\n\\(\\Rightarrow\\) A sibling correlation is a lower bound measure of the importance of family and community background."
+    "section": "Family background and sibling similarity",
+    "text": "Family background and sibling similarity\n\nOne approach to studying intergenerational reproduction in wealth is the intergenerational correlation between parents and adult children. However, direct (bivariate) parent-child correlations in wealth may miss important aspects of the intergenerational reproduction of wealth which do not go directly through wealth.\n\nIf family and community background matter for children’s attainment, two siblings sharing this background should be more similar to each other than two randomly matched persons.\n\n\n\\(\\Rightarrow\\) The study of siblings’ similarity in outcomes is instructive to assess how the family and other shared factors influence these outcomes (Grätz et al. 2021; Mazumder 2008; Schnitzlein 2014; Solon 1999; Solon et al. 1991)."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#how-to-estimate-a-sibling-correlation",
-    "href": "InterVerm1_ESR_Version.html#how-to-estimate-a-sibling-correlation",
+    "objectID": "InterVerm1_ESPE_Version.html#prior-empirical-evidence",
+    "href": "InterVerm1_ESPE_Version.html#prior-empirical-evidence",
     "title": "Wealth Formation among Siblings in Germany",
-    "section": "How to estimate a sibling correlation?",
-    "text": "How to estimate a sibling correlation?\n\nFollowing Mazumder (2008), we estimate the sibling correlation in our wealth measures as the intraclass correlation (ICC) in the following linear multilevel model:\n\\[y_{ij}=\\beta X_{ij}+\\alpha_i + \\mu_{ij}\\]\nwhith \\(y_{ij}\\) being an observation of a wealth measure and \\(X_{ij}\\) is a vector of covariates (matrix of fixed age and gender effects), \\(\\alpha_i\\) is the family-specific random effect, and \\(\\mu_{ij}\\) is the individual-specific random effect.\nFor all models we apply restricted maximum likelihood (REML) to estimate the variances of \\(\\alpha_i\\) and \\(\\mu_{ij}\\).\nSince all our wealth measures represent results from multiple imputation, the reported ICCs are averages from five individual estimations based on the respective imputed values provided in our data and we corrected the standard errors according to Rubin’s (1987) rule to account for both the within and between variance of the estimates."
+    "section": "Prior empirical evidence",
+    "text": "Prior empirical evidence\n\nFew prior studies use sibling correlations to assess the intergenerational reproduction of wealth (see Lersch et al. 2024 for an overview).\n\nFor Norway (Wiborg and Hansen 2018) , Sweden (Hällsten and Thaning 2018), and the US (Conley and Glauber 2005, Pfeffer et al. 2016), studies show strong positive associations of wealth between siblings.\n\n\nThe correlation in net wealth is estimated at 0.37 in the US (Conley and Glauber 2005). Estimates of sibling correlations in Sweden are of similar size with 0.32, while they are smaller in Norway (about 0.20–0.30). Comparable empirical studies on wealth are not available for Germany.\n\n\nPrevious results suggest that sibling similarity in wealth is less pronounced for women than for men."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#the-study-is-based-on-german-data-from-the-soep",
-    "href": "InterVerm1_ESR_Version.html#the-study-is-based-on-german-data-from-the-soep",
-    "title": "Wealth Formation among Siblings in Germany",
-    "section": "The study is based on German data from the SOEP",
-    "text": "The study is based on German data from the SOEP\n\n\nSocio-economic Panel SOEPv36eu (Goebel et al. 2019)\nNationally representative German annual household survey (since 1984)\nIncludes more than 19.000 households and about 35.000 persons (incl. children) in the most recent wave\nOffspring surveyed first at age of 14 and followed thereafter even after leaving parental household\nBottom-up measurement of wealth: harmonized measures in 2002, 2007, 2012, 2017 on individual level\nThe SOEP data compare well to other data on wealth for Germany, however wealth, in particular at the top of the distribution, is still underestimated (Grabka and Westermeier 2015)"
-  },
-  {
-    "objectID": "InterVerm1_ESR_Version.html#wealth-measures",
-    "href": "InterVerm1_ESR_Version.html#wealth-measures",
-    "title": "Wealth Formation among Siblings in Germany",
-    "section": "Wealth measures",
-    "text": "Wealth measures\n\nIndividual’s rank in the distribution of net individual and household wealth\n\nIndividual wealth is the sum of all wealth owned by an individual. Real and financial assets, life insurance, private pension plans, business assets, and other tangible assets are included. Personal debts and loans are subtracted from these assets to compute individual net wealth. Respondents may have negative net wealth. Household net wealth is aggregated individual net wealth.\nWe calculate individuals’ wealth ranks in the distribution of the full population for each cross-section and assign this position as our wealth measure. Rank ties are broken by random assignment.\nFor each respondent, we use the wealth observation that is closest to age 40 within the age window 25–55 years to account for possible life-cycle patterns."
-  },
-  {
-    "objectID": "InterVerm1_ESR_Version.html#sibling-correlations-in-wealth-and-wealth-inequality",
-    "href": "InterVerm1_ESR_Version.html#sibling-correlations-in-wealth-and-wealth-inequality",
+    "objectID": "InterVerm1_ESPE_Version.html#sibling-correlations-in-wealth-and-wealth-inequality",
+    "href": "InterVerm1_ESPE_Version.html#sibling-correlations-in-wealth-and-wealth-inequality",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Sibling correlations in wealth and wealth inequality",
     "text": "Sibling correlations in wealth and wealth inequality"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#sibling-correlations-in-ind.-net-wealth-in-germany",
-    "href": "InterVerm1_ESR_Version.html#sibling-correlations-in-ind.-net-wealth-in-germany",
+    "objectID": "InterVerm1_ESPE_Version.html#what-is-a-sibling-correlation",
+    "href": "InterVerm1_ESPE_Version.html#what-is-a-sibling-correlation",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "What is a sibling correlation?",
+    "text": "What is a sibling correlation?\n\nThe correlation coeffcient \\(\\rho\\) of the wealth measure \\(y\\) of two siblings \\(j\\) and \\(j'\\) from the same family equals (Solon et al. 1991: Solon 1999):\n\\[ \\rho = corr(y_{ij}, y_{ij'})=\\frac{\\sigma_{\\alpha}^2}{\\sigma_{\\alpha}^2+\\sigma_{\\mu}^2}\\text{ with } j \\neq j'\\] Interpretation: The sibling correlation equals the proportion of the total variance (or inequality) in wealth (\\(\\sigma_{\\alpha}^2+\\sigma_{\\mu}^2\\)) that can be attributed to factors shared by siblings (\\(\\sigma_{\\alpha}^2\\)), such as family factors or neighborhood factors. \\(\\rho\\) can take on values between 0 and 1.\n\n\\(\\Rightarrow\\) A sibling correlation is a broader concept of social transmission than an intergenerational correlation.\n\\(\\Rightarrow\\) A sibling correlation is a lower bound measure of the importance of family and community background."
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#how-to-estimate-a-sibling-correlation",
+    "href": "InterVerm1_ESPE_Version.html#how-to-estimate-a-sibling-correlation",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "How to estimate a sibling correlation?",
+    "text": "How to estimate a sibling correlation?\n\nFollowing Mazumder (2008), we estimate the sibling correlation in our wealth measures as the intraclass correlation (ICC) in the following linear multilevel model:\n\\[y_{ij}=\\beta X_{ij}+\\alpha_i + \\mu_{ij}\\]\nwhith \\(y_{ij}\\) being an observation of a wealth measure and \\(X_{ij}\\) is a vector of covariates (matrix of fixed age and gender effects), \\(\\alpha_i\\) is the family-specific random effect, and \\(\\mu_{ij}\\) is the individual-specific random effect.\nFor all models we apply restricted maximum likelihood (REML) to estimate the variances of \\(\\alpha_i\\) and \\(\\mu_{ij}\\).\nSince all our wealth measures represent results from multiple imputation, the reported ICCs are averages from five individual estimations based on the respective imputed values provided in our data and we corrected the standard errors according to Rubin’s (1987) rule to account for both the within and between variance of the estimates."
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#decomposition-approach",
+    "href": "InterVerm1_ESPE_Version.html#decomposition-approach",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Decomposition approach",
+    "text": "Decomposition approach\n\nFollowing Mazumder (2008) we decompose the sibling correlation by introducing additional controls on the fixed effects stage.\n\nThe resulting reduction of the sibling correlation (ICC) can then be interpreted as a proxy for the importance of the included additional controls.\n\nMazumder (2008) suggests this approach for both individual-level and family-level factors while Björklund, Lindahl and Lindquist (2010) suggest incorporating only family-level factors."
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#the-study-is-based-on-german-data-from-the-soep",
+    "href": "InterVerm1_ESPE_Version.html#the-study-is-based-on-german-data-from-the-soep",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "The study is based on German data from the SOEP",
+    "text": "The study is based on German data from the SOEP\n\nSocio-economic Panel SOEPv36eu (Goebel et al. 2019):\n\nNationally representative German annual household survey (since 1984)\nMore than 19.000 households and about 35.000 persons (incl. children) in the most recent wave\nOffspring surveyed first at age of 14 and followed thereafter even after leaving parental household\nBottom-up measurement of wealth: harmonized measures in 2002, 2007, 2012, 2017 on individual level\nThe SOEP data compare well to other data on wealth for Germany, however wealth, in particular at the top of the distribution, is still underestimated (Grabka and Westermeier 2015)"
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#sample",
+    "href": "InterVerm1_ESPE_Version.html#sample",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Sample",
+    "text": "Sample\n\n\nSiblings are identified via their mothers, thus we only include individuals with observed mothers (social or biological).\nWealth observations are only included from years when offspring lives in different household than mother\nNon-missing observations on main control variables (no big issue here)\nTwo analytical samples:\n\nFull sample. Meets the above criteria.\nSecond sample. Listwise deletion for maternal wealth, occupation, and income to have complete information on the family background."
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#rank-in-net-individual-and-household-wealth",
+    "href": "InterVerm1_ESPE_Version.html#rank-in-net-individual-and-household-wealth",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Rank in net individual and household wealth",
+    "text": "Rank in net individual and household wealth\n\nIndividual wealth is the sum of all wealth owned by an individual. Real and financial assets, life insurance, private pension plans, business assets, and other tangible assets are included. Personal debts and loans are subtracted from these assets to compute individual net wealth. Respondents may have negative net wealth. Household net wealth is aggregated individual net wealth.\n\nWe calculate individuals’ wealth ranks in the distribution of the full population for each cross-section and assign this position as our wealth measure. Rank ties are broken by random assignment.\n\nFor each respondent, we use the wealth observation that is closest to age 40 within the age window 25–55 years to account for possible life-cycle patterns."
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#descriptive-statistics",
+    "href": "InterVerm1_ESPE_Version.html#descriptive-statistics",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Descriptive statistics",
+    "text": "Descriptive statistics"
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#sibling-correlations-in-ind.-net-wealth-in-germany",
+    "href": "InterVerm1_ESPE_Version.html#sibling-correlations-in-ind.-net-wealth-in-germany",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Sibling correlations in ind. net wealth in Germany",
     "text": "Sibling correlations in ind. net wealth in Germany"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#adding-household-net-wealth",
-    "href": "InterVerm1_ESR_Version.html#adding-household-net-wealth",
+    "objectID": "InterVerm1_ESPE_Version.html#adding-household-net-wealth",
+    "href": "InterVerm1_ESPE_Version.html#adding-household-net-wealth",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Adding household net wealth",
     "text": "Adding household net wealth"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#adding-log-individual-labour-earnings",
-    "href": "InterVerm1_ESR_Version.html#adding-log-individual-labour-earnings",
+    "objectID": "InterVerm1_ESPE_Version.html#adding-log-individual-labour-earnings",
+    "href": "InterVerm1_ESPE_Version.html#adding-log-individual-labour-earnings",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Adding log individual labour earnings",
     "text": "Adding log individual labour earnings"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#adding-years-of-schooling",
-    "href": "InterVerm1_ESR_Version.html#adding-years-of-schooling",
+    "objectID": "InterVerm1_ESPE_Version.html#adding-years-of-schooling",
+    "href": "InterVerm1_ESPE_Version.html#adding-years-of-schooling",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Adding years of schooling",
     "text": "Adding years of schooling"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#only-individuals-in-partnership",
-    "href": "InterVerm1_ESR_Version.html#only-individuals-in-partnership",
+    "objectID": "InterVerm1_ESPE_Version.html#individuals-with-partners-in-household",
+    "href": "InterVerm1_ESPE_Version.html#individuals-with-partners-in-household",
     "title": "Wealth Formation among Siblings in Germany",
-    "section": "Only individuals in partnership",
-    "text": "Only individuals in partnership\n\n\nTable 2: Sibling correlations in wealth (partner sample)\n\n\n\n\n\n\n\n\n\nAll\nBrothers\nSisters\n\n\n\n\nIndividual net wealth\n0.325\n0.305\n0.352\n\n\n\n(0.043)\n(0.074)\n(0.094)\n\n\nIndividual net wealth (partner)\n0.279\n0.337\n0.287\n\n\n\n(0.044)\n(0.073)\n(0.092)\n\n\nNumber of individuals\n1,899\n992\n907\n\n\nNumber of families\n1,561\n882\n832"
+    "section": "Individuals with partners in household",
+    "text": "Individuals with partners in household\n\n\nTable 2: Sibling correlations in wealth (partner in household)\n\n\n\n\n\n\n\n\n\nAll\nBrothers\nSisters\n\n\n\n\nIndividual net wealth\n0.334\n0.322\n0.361\n\n\n\n(0.037)\n(0.065)\n(0.077)\n\n\nHousehold level net wealth\n0.370\n0.431\n0.309\n\n\n\n(0.036)\n(0.060)\n(0.075)\n\n\nNumber of individuals\n2,380\n1,177\n1,203\n\n\nNumber of families\n1,916\n1,038\n1,085"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#family-ses-explains-about-14-of-the-sc-in-wealth",
-    "href": "InterVerm1_ESR_Version.html#family-ses-explains-about-14-of-the-sc-in-wealth",
+    "objectID": "InterVerm1_ESPE_Version.html#individuals-with-identified-partners",
+    "href": "InterVerm1_ESPE_Version.html#individuals-with-identified-partners",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Individuals with identified partners",
+    "text": "Individuals with identified partners\n\n\nTable 3: Sibling correlations in wealth (identified partner)\n\n\n\n\n\n\n\n\n\nAll\nBrothers\nSisters\n\n\n\n\nIndividual net wealth\n0.325\n0.305\n0.352\n\n\n\n(0.043)\n(0.074)\n(0.094)\n\n\nIndividual net wealth (partner)\n0.279\n0.337\n0.287\n\n\n\n(0.044)\n(0.073)\n(0.092)\n\n\nNumber of individuals\n1,899\n992\n907\n\n\nNumber of families\n1,561\n882\n832"
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#east-and-west-germany",
+    "href": "InterVerm1_ESPE_Version.html#east-and-west-germany",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "East and West Germany",
+    "text": "East and West Germany"
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#development-over-cohorts",
+    "href": "InterVerm1_ESPE_Version.html#development-over-cohorts",
+    "title": "Wealth Formation among Siblings in Germany",
+    "section": "Development over cohorts",
+    "text": "Development over cohorts"
+  },
+  {
+    "objectID": "InterVerm1_ESPE_Version.html#family-ses-explains-about-14-of-the-sc-in-wealth",
+    "href": "InterVerm1_ESPE_Version.html#family-ses-explains-about-14-of-the-sc-in-wealth",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Family SES explains about 1/4 of the SC in wealth",
-    "text": "Family SES explains about 1/4 of the SC in wealth\n\n\n\\(\\Rightarrow\\) Thus the implied intergenerational rank-rank correlations are between 0.22 and 0.25"
+    "text": "Family SES explains about 1/4 of the SC in wealth\n\n\n\n\\(\\Rightarrow\\) Thus the implied intergenerational rank-rank correlations are 0.27 and 0.26."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#dem.-factors-explains-about-4-of-the-sc-in-wealth",
-    "href": "InterVerm1_ESR_Version.html#dem.-factors-explains-about-4-of-the-sc-in-wealth",
-    "title": "Wealth Formation among Siblings in Germany",
-    "section": "Dem. factors explains about 4% of the SC in wealth",
-    "text": "Dem. factors explains about 4% of the SC in wealth"
-  },
-  {
-    "objectID": "InterVerm1_ESR_Version.html#dem.-factors-explains-about-4-of-the-sc-in-wealth-1",
-    "href": "InterVerm1_ESR_Version.html#dem.-factors-explains-about-4-of-the-sc-in-wealth-1",
-    "title": "Wealth Formation among Siblings in Germany",
-    "section": "Dem. factors explains about 4% of the SC in wealth",
-    "text": "Dem. factors explains about 4% of the SC in wealth"
-  },
-  {
-    "objectID": "InterVerm1_ESR_Version.html#family-ses-is-most-important-factor",
-    "href": "InterVerm1_ESR_Version.html#family-ses-is-most-important-factor",
+    "objectID": "InterVerm1_ESPE_Version.html#family-ses-is-most-important-factor",
+    "href": "InterVerm1_ESPE_Version.html#family-ses-is-most-important-factor",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Family SES is most important factor",
     "text": "Family SES is most important factor"
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#conclusions",
-    "href": "InterVerm1_ESR_Version.html#conclusions",
+    "objectID": "InterVerm1_ESPE_Version.html#conclusions",
+    "href": "InterVerm1_ESPE_Version.html#conclusions",
     "title": "Wealth Formation among Siblings in Germany",
     "section": "Conclusions",
-    "text": "Conclusions\nWe find that the sibling correlation in individual-level net wealth ranks is 0.34 in Germany, which is close to results from Sweden and the US but somewhat higher than results from Norway (based on gross wealth).\nSibling similarity is higher among sisters compared to brothers and among brothers, sibling similarity is lower in individual-level wealth than household-level wealth, while sibling similarity is higher for sisters in individual-level wealth than household-level wealth.\nWhile we find evidence for demographic processes to moderate sibling similarity in wealth, demographic processes contribute little to explaining the observed sibling similarity in our data relative to traditional SES measures."
+    "text": "Conclusions\n\nWe find that the sibling correlation in individual-level net wealth ranks is 0.34 in Germany, which is close to results from Sweden and the US but somewhat higher than results from Norway (based on gross wealth).\n\nSibling similarity in individual wealth is higher among sisters compared to brothers. Gender differences are less pronounced for household-level wealth.\n\nDemographic processes contribute little to explaining the observed sibling similarity in our data relative to traditional SES measures."
   },
   {
-    "objectID": "InterVerm1_ESR_Version.html#limitations",
-    "href": "InterVerm1_ESR_Version.html#limitations",
+    "objectID": "InterVerm1_ESPE_Version.html#limitations-and-outlook",
+    "href": "InterVerm1_ESPE_Version.html#limitations-and-outlook",
     "title": "Wealth Formation among Siblings in Germany",
-    "section": "Limitations",
-    "text": "Limitations\nOur analysis is descriptive providing a comprehensive overview of the influence of family background and other factors shared by siblings on wealth in Germany but does not identify specific causal mechanisms.\nThe sibling similarity approach is based only on families with more than one child.\nThe sibling similarity approach (at least with our data) is not capable of decomposing the variance shared by siblings further into genetic, social, and environmental components.\nThe modest sample size prohibits more granular analysis of the interactions of various demographic processes and gender.\n\n\n\n\nESPE 2024 - Schnitzlein"
+    "section": "Limitations and outlook",
+    "text": "Limitations and outlook\n\n\nOur analysis is descriptive providing a comprehensive overview of the influence of family background and other factors shared by siblings on wealth in Germany but does not identify specific causal mechanisms.\nThe sibling similarity approach is based only on families with more than one child.\nThe sibling similarity approach (at least with our data) is not capable of decomposing the variance shared by siblings further into genetic, social, and environmental components.\nThe modest sample size prohibits more granular analysis of the interactions of various demographic processes and gender.\nOutlook: detailed analysis of wealth components.\n\n\n\n\n\nESPE 2024 - Schnitzlein"
   }
 ]

@@ -103,62 +103,38 @@ format:
 
 3. We consider a [**rich set of demographic variables**]{style="color: #316fb6;"} to examine the moderating influence of demographic processes on the reproduction of wealth and contrast their influence with that of  [**traditional family SES measures**]{style="color: #316fb6;"}. 
 
-## What is a sibling correlation?
+## Family background and sibling similarity
 
 <br>
 
-The correlation coeffcient $\rho$ of the wealth measure $y$ of two siblings $j$ and $j'$ from the same family equals (Solon et al. 1991: Solon 1999):
+One approach to studying [**intergenerational reproduction**]{style="color: #316fb6;"} in wealth is the  [**intergenerational correlation**]{style="color: #316fb6;"} between parents and adult children. However, direct (bivariate) parent-child correlations in wealth may miss important aspects of the intergenerational reproduction of wealth which do not go directly through wealth. 
 
-$$ \rho = corr(y_{ij}, y_{ij'})=\frac{\sigma_{\alpha}^2}{\sigma_{\alpha}^2+\sigma_{\mu}^2}\text{ with } j \neq j'$$
-[**Interpretation**]{style="color: #316fb6;"}: The sibling correlation equals the [**proportion of the total variance**]{style="color: #316fb6;"} (or inequality) in wealth ($\sigma_{\alpha}^2+\sigma_{\mu}^2$) that can be attributed to factors [**shared by siblings**]{style="color: #316fb6;"} ($\sigma_{\alpha}^2$), such as family factors or neighborhood factors. $\rho$ can take on values between 0 and 1.
+. . .
 
-$\Rightarrow$ A sibling correlation is a [**broader concept of social transmission**]{style="color: #316fb6;"} than an intergenerational correlation.
+If family and community background matter for children's attainment, two siblings sharing this background should be more similar to each other than two randomly matched persons.
 
-$\Rightarrow$ A sibling correlation is a [**lower bound measure**]{style="color: #316fb6;"} of the importance of family and community background.
+. . .
 
-## How to estimate a sibling correlation?
+$\Rightarrow$ The study of [**siblings' similarity**]{style="color: #316fb6;"} in outcomes is instructive to assess how the family and other shared factors influence these outcomes (Grätz et al. 2021; Mazumder 2008; Schnitzlein 2014; Solon 1999; Solon et al. 1991).
 
-<br>
 
-Following Mazumder (2008), we estimate the sibling correlation in our wealth measures as the intraclass correlation (ICC) in the following linear multilevel model:
-
-$$y_{ij}=\beta X_{ij}+\alpha_i + \mu_{ij}$$
-
-whith $y_{ij}$ being an observation of a wealth measure and $X_{ij}$ is a vector of covariates (matrix of fixed age and gender effects), $\alpha_i$ is the family-specific random effect, and $\mu_{ij}$ is the individual-specific random effect.
-
-For all models we apply restricted maximum likelihood (REML) to estimate the variances of $\alpha_i$ and $\mu_{ij}$.
-
-Since all our wealth measures represent results from multiple imputation, the reported ICCs are averages from five individual estimations based on the respective imputed values provided in our data and we corrected the standard errors according to Rubin's (1987) rule to account for both the within and between variance of the estimates.
-
-## The study is based on German data from the SOEP
+## Prior empirical evidence
 
 <br>
 
-- Socio-economic Panel SOEPv36eu (Goebel et al. 2019)
+Few prior studies use sibling correlations to assess the intergenerational reproduction of wealth (see Lersch et al. 2024 for an overview). 
 
-- Nationally representative German annual household survey (since 1984)
+. . .
 
-- Includes more than 19.000 households and about 35.000 persons (incl. children) in the most recent wave
+For [**Norway**]{style="color: #316fb6;"} (Wiborg and Hansen 2018) , [**Sweden**]{style="color: #316fb6;"} (Hällsten and Thaning 2018), and the [**US**]{style="color: #316fb6;"} (Conley and Glauber 2005, Pfeffer et al. 2016), studies show strong positive associations of wealth between siblings.
 
-- Offspring surveyed first at age of 14 and followed thereafter even after leaving parental household
+. . .
 
-- Bottom-up measurement of wealth: harmonized measures in 2002, 2007, 2012, 2017 on individual level
+The correlation in net wealth is estimated at 0.37 in the US (Conley and Glauber 2005). Estimates of sibling correlations in Sweden are of similar size with 0.32, while they are smaller in Norway (about 0.20–0.30). Comparable empirical studies on wealth are not available for Germany.
 
-- The SOEP data compare well to other data on wealth for Germany, however wealth, in particular at the top of the distribution, is still underestimated (Grabka and Westermeier 2015)
+. . .
 
-## Wealth measures
-
-<br>
-
-[**Individual’s rank in the distribution of net individual and household wealth**]{style="color: #316fb6;"}
-
-<br>
-
-Individual wealth is the sum of all wealth owned by an individual. Real and financial assets, life insurance, private pension plans, business assets, and other tangible assets are included. Personal debts and loans are subtracted from these assets to compute [**individual net wealth**]{style="color: #316fb6;"}. Respondents may have negative net wealth. [**Household net wealth**]{style="color: #316fb6;"} is aggregated individual net wealth.
-
-We calculate individuals’ wealth ranks in the distribution of the full population for each cross-section and assign this position as our wealth measure. Rank ties are broken by random assignment. 
-
-For each respondent, we use the wealth observation that is closest to age 40 within the age window 25–55 years to account for possible life-cycle patterns.
+Previous results suggest that sibling similarity in wealth is [**less pronounced for women than for men**]{style="color: #316fb6;"}.
 
 ## Sibling correlations in wealth and wealth inequality
 
@@ -167,7 +143,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 # Seaborn Settings für größere und qualitativ bessere (dpi) Abbildungen
-sns.set(rc = {'figure.figsize':(13,6), "figure.dpi":300,})
+sns.set(rc = {'figure.figsize':(11,6), "figure.dpi":300,})
 sns.set_style("white")
 sns.set_context("paper", font_scale=1.5, rc={'text.usetex' : True})
 gatsbyIGE = pd.DataFrame({"Country": ["United States (HH)", "United States (HH)", "Norway (Ind)", "Sweden (Ind)", "Germany (Ind)", "Germany (HH)"], 
@@ -180,6 +156,102 @@ sns_plot.set(ylabel=r'Sibling correlation (higher similarity $\longrightarrow$)'
 for line in range(0,gatsbyIGE.shape[0]):
      plt.text(gatsbyIGE.Gini[line]+0.003, gatsbyIGE.IGC[line], gatsbyIGE.Country[line], horizontalalignment='left', size=10, color='#000000', weight='light')
 ```
+
+
+## What is a sibling correlation?
+
+<br>
+
+The correlation coeffcient $\rho$ of the wealth measure $y$ of two siblings $j$ and $j'$ from the same family equals (Solon et al. 1991: Solon 1999):
+
+$$ \rho = corr(y_{ij}, y_{ij'})=\frac{\sigma_{\alpha}^2}{\sigma_{\alpha}^2+\sigma_{\mu}^2}\text{ with } j \neq j'$$
+[**Interpretation**]{style="color: #316fb6;"}: The sibling correlation equals the [**proportion of the total variance**]{style="color: #316fb6;"} (or inequality) in wealth ($\sigma_{\alpha}^2+\sigma_{\mu}^2$) that can be attributed to factors [**shared by siblings**]{style="color: #316fb6;"} ($\sigma_{\alpha}^2$), such as family factors or neighborhood factors. $\rho$ can take on values between 0 and 1.
+
+<br>
+
+$\Rightarrow$ A sibling correlation is a [**broader concept of social transmission**]{style="color: #316fb6;"} than an intergenerational correlation.
+
+$\Rightarrow$ A sibling correlation is a [**lower bound measure**]{style="color: #316fb6;"} of the importance of family and community background.
+
+
+## How to estimate a sibling correlation?
+
+<br>
+
+Following Mazumder (2008), we estimate the sibling correlation in our wealth measures as the [**intraclass correlation (ICC)**]{style="color: #316fb6;"} in the following [**linear multilevel model**]{style="color: #316fb6;"}:
+
+$$y_{ij}=\beta X_{ij}+\alpha_i + \mu_{ij}$$
+
+whith $y_{ij}$ being an observation of a wealth measure and $X_{ij}$ is a vector of covariates (matrix of fixed age and gender effects), $\alpha_i$ is the family-specific random effect, and $\mu_{ij}$ is the individual-specific random effect.
+
+For all models we apply [**restricted maximum likelihood (REML)**]{style="color: #316fb6;"} to estimate the variances of $\alpha_i$ and $\mu_{ij}$.
+
+Since all our wealth measures represent results from multiple imputation, the reported ICCs are averages from five individual estimations based on the respective imputed values provided in our data and we corrected the standard errors according to Rubin's (1987) rule to account for both the within and between variance of the estimates.
+
+## Decomposition approach
+
+<br>
+
+Following Mazumder (2008) we decompose the sibling correlation by introducing additional controls on the fixed effects stage.
+
+<br>
+
+The resulting [**reduction of the sibling correlation (ICC)**]{style="color: #316fb6;"} can then be interpreted as a [**proxy for the importance**]{style="color: #316fb6;"} of the included additional controls.
+
+<br>
+
+Mazumder (2008) suggests this approach for both individual-level and family-level factors while Björklund, Lindahl and Lindquist (2010) suggest incorporating only family-level factors.
+
+
+
+## The study is based on German data from the SOEP
+
+<br>
+
+Socio-economic Panel SOEPv36eu (Goebel et al. 2019):
+
+- Nationally representative German annual household survey (since 1984)
+
+- More than 19.000 households and about 35.000 persons (incl. children) in the most recent wave
+
+- Offspring surveyed first at age of 14 and followed thereafter even after leaving parental household
+
+- Bottom-up measurement of wealth: harmonized measures in 2002, 2007, 2012, 2017 on individual level
+
+- The SOEP data compare well to other data on wealth for Germany, however wealth, in particular at the top of the distribution, is still underestimated (Grabka and Westermeier 2015)
+
+## Sample
+
+<br>
+
+- Siblings are identified via their mothers, thus we only include individuals with observed mothers (social or biological).
+
+- Wealth observations are only included from years when offspring lives in different household than mother
+
+- Non-missing observations on main control variables (no big issue here)
+
+- Two analytical samples:
+  - Full sample. Meets the above criteria.
+  - Second sample. Listwise deletion for maternal wealth, occupation, and income to have complete information on the family background.
+
+## Rank in net individual and household wealth
+
+<br>
+
+Individual wealth is the sum of all wealth owned by an individual. Real and financial assets, life insurance, private pension plans, business assets, and other tangible assets are included. Personal debts and loans are subtracted from these assets to compute [**individual net wealth**]{style="color: #316fb6;"}. Respondents may have negative net wealth. [**Household net wealth**]{style="color: #316fb6;"} is aggregated individual net wealth.
+
+<br>
+
+We calculate individuals’ wealth ranks in the distribution of the full population for each cross-section and assign this position as our wealth measure. Rank ties are broken by random assignment. 
+
+<br>
+
+For each respondent, we use the wealth observation that is closest to age 40 within the age window 25–55 years to account for possible life-cycle patterns.
+
+## Descriptive statistics
+<br>
+
+![](Bildschirmfoto 2024-06-26 um 09.09.29.png){fig-align="center" width="100%"}
 
 
 ## Sibling correlations in ind. net wealth in Germany
@@ -255,7 +327,25 @@ abb1.set(ylim=(0, 0.75))
 sns.despine()
 ```
 
-## Only individuals in partnership
+## Individuals with partners in household
+
+<br>
+
+
+|                                   | All     | Brothers   | Sisters  |
+|-----------------------------------|---------|------------|----------|
+| Individual net wealth             | 0.334   | 0.322      | 0.361    |
+|                                   | (0.037) | (0.065)    | (0.077)  |
+| Household level net wealth        | 0.370   | 0.431      | 0.309    |
+|                                   | (0.036) | (0.060)    | (0.075)  |
+| Number of individuals             | 2,380   | 1,177      | 1,203    |
+| Number of families                | 1,916   | 1,038      | 1,085    |
+
+
+
+: Table 2: Sibling correlations in wealth (partner in household) {tbl-colwidths="\[60,10,10,10\]" .striped}
+
+## Individuals with identified partners
 
 <br>
 
@@ -271,7 +361,45 @@ sns.despine()
 
 
 
-: Table 2: Sibling correlations in wealth (partner sample) {tbl-colwidths="\[60,10,10,10\]" .striped}
+: Table 3: Sibling correlations in wealth (identified partner) {tbl-colwidths="\[60,10,10,10\]" .striped}
+
+## East and West Germany
+
+```{python}
+import pandas as pd
+import seaborn as sns
+abbildung1 = pd.DataFrame({'Type': ['Ind. net wealth','Household net wealth','Ind. net wealth','Household net wealth'],
+                           'Region of Germany': ['West','West','East','East'],
+                           'Sibling Correlation': [0.300,0.367,0.301,0.387]})
+sns.set(rc = {'figure.figsize':(11,6), "figure.dpi":300,})
+sns.set_theme(style="whitegrid")
+abb1 = sns.barplot(x="Region of Germany", y="Sibling Correlation", hue="Type", data=abbildung1, palette="Blues_r")
+for i in abb1.containers:
+    abb1.bar_label(i,)
+abb1.legend(loc='upper left')
+abb1.set(ylim=(0, 0.75))
+sns.despine()
+```
+
+## Development over cohorts
+
+
+```{python}
+import pandas as pd
+import seaborn as sns
+abbildung1 = pd.DataFrame({'Type': ['Ind. net wealth','Ind. net wealth','Ind. net wealth'],
+                           'Birth cohort of child': ['1945-1967','1965-1984','1985+'],
+                           'Sibling Correlation': [0.317,0.350,0.408]})
+sns.set(rc = {'figure.figsize':(10,6), "figure.dpi":300,})
+sns.set_theme(style="whitegrid")
+abb1 = sns.barplot(x="Birth cohort of child", y="Sibling Correlation", data=abbildung1, palette="Blues_r")
+for i in abb1.containers:
+    abb1.bar_label(i,)
+abb1.set(ylim=(0, 0.75))
+sns.despine()
+```
+
+
 
 ## Family SES explains about 1/4 of the SC in wealth
 
@@ -279,41 +407,43 @@ sns.despine()
 
 ![](Bildschirmfoto 2024-06-24 um 16.06.37.png){fig-align="center" width="100%"}
 
-$\Rightarrow$ Thus the implied intergenerational rank-rank correlations are between 0.22 and 0.25
-
-## Dem. factors explains about 4% of the SC in wealth
-
 <br>
 
-![](Bildschirmfoto 2024-06-24 um 16.13.34.png){fig-align="center" width="100%"}
+$\Rightarrow$ Thus the implied [**intergenerational rank-rank correlations**]{style="color: #316fb6;"} are  0.27 and 0.26.
 
-## Dem. factors explains about 4% of the SC in wealth
-
-<br>
-
-![](Bildschirmfoto 2024-06-24 um 16.13.34.png){fig-align="center" width="100%"}
 
 ## Family SES is most important factor
 
 <br>
 
-![](Bildschirmfoto 2024-06-24 um 16.16.49.png){fig-align="center" width="100%"}
+![](Bildschirmfoto 2024-06-26 um 09.16.45.png){fig-align="center" width="100%"}
+
 
 ## Conclusions
 
+<br>
+
 We find that the sibling correlation in individual-level net wealth ranks is 0.34 in Germany, which is close to results from Sweden and the US but somewhat higher than results from Norway (based on gross wealth). 
 
-Sibling similarity is higher among sisters compared to brothers and among brothers, sibling similarity is lower in individual-level wealth than household-level wealth, while sibling similarity is higher for sisters in individual-level wealth than household-level wealth. 
+<br>
 
-While we find evidence for demographic processes to moderate sibling similarity in wealth, demographic processes contribute little to explaining the observed sibling similarity in our data relative to traditional SES measures.
+Sibling similarity in individual wealth is higher among sisters compared to brothers. Gender differences are less pronounced for household-level wealth. 
 
-## Limitations
+<br>
 
-Our analysis is descriptive providing a comprehensive overview of the influence of family background and other factors shared by siblings on wealth in Germany but does not identify specific causal mechanisms.
+Demographic processes contribute little to explaining the observed sibling similarity in our data relative to traditional SES measures.
 
-The sibling similarity approach is based only on families with more than one child. 
 
-The sibling similarity approach (at least with our data) is not capable of decomposing the variance shared by siblings further into genetic, social, and environmental components.
+## Limitations and outlook
 
-The modest sample size prohibits more granular analysis of the interactions of various demographic processes and gender.
+<br>
 
+- Our analysis is descriptive providing a comprehensive overview of the influence of family background and other factors shared by siblings on wealth in Germany but does not identify specific causal mechanisms.
+
+- The sibling similarity approach is based only on families with more than one child. 
+
+- The sibling similarity approach (at least with our data) is not capable of decomposing the variance shared by siblings further into genetic, social, and environmental components.
+
+- The modest sample size prohibits more granular analysis of the interactions of various demographic processes and gender.
+
+- Outlook: detailed analysis of wealth components.
